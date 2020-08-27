@@ -1,3 +1,7 @@
+Alexander Dahlmann
+Homework 1: INF 502
+
+
 Question 1:
 
 Example runs:
