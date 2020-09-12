@@ -1,7 +1,17 @@
 Question 1:
 ```python
 
+lst=[]
+for i in range(0, 5): 
+    ele = int(input("Please enter money in a wallet: ")) 
+    lst.append(ele)
 
+lst.sort()
+
+print("The fattest wallet has $",str(lst[4]),"in it")
+print("The skinniest wallet has $",str(lst[0]),"in it")
+print("All together the wallets have $",str(sum(lst)),"in them")
+print("All together the wallets have",str(sum(lst)*10)," dimes in them")
 
 ```
 
