@@ -408,3 +408,8 @@ The first list shifted by 1 has 4 matche(s) and 3 contiguous.
 ['0', 'T', 'T', 'T', 'T', 'G', 'T', 'C', 'G', 'A', 'T']
 
 The second list shifted by 1 has 2 matche(s) and 2 contiguous.
+
+
+
+
+The challenges in this approach was mostly just debugging the coniguous function as well as making sure the lists were defined correctly. 
