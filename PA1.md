@@ -1,3 +1,23 @@
+## Igor Feedback
+
+* Overall: It works! Some issues: The string read from the file is not trimmed (strip()), therefore, an extra character is read when there is a line break. Not checking chars different than ACTG. Lengths are checked (but adjusted); the assignment required to check and return an error. Code is not well structured in functions.
+
+* Number of matches: Correct (but there is a need to strip when /n is there)
+* Maximum chain: Correct (but there is a need to strip when /n is there)
+* User-input: OK
+* Max Shift: OK. 
+* Exception handling/checks: Not good. Checking some things missing others
+    - Files: OK...But context is missing + I cannot retry
+    - Conversions: OK.
+    - Inputs: OK... 
+    - same size, no bad chars, etc.:  No check for chars that are not ACTG; Length is checked but fixed instead of raised as error.
+* Functions: A few. The core ones are not structured as functions
+
+* Variable + function names: No... not easily understandable
+
+* **Your grade is 78/100**
+
+
 I decided to write this program by starting with the functions to determine both the pairs and contiguous requiring the inputs of both the lists and the length of the lists.
 Then a file input system is implemented where an individual needs to input the name of a file minus the .txt at the end (ie if the file is called "file1.txt", the user only inputs "file1")
 The files are checked if they exist and then puts the contents into two lists for easy analysis. 
